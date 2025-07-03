@@ -42,7 +42,7 @@ Deepfake technology can generate highly realistic fake images and videos, seriou
 ## ☑️ TODO
 - [x] Project page released
 - [x] Dataset preparation instructions released
-- [ ] Release of core implementation
+- [ ] Release of core codes
 - [ ] Release of training and evaluation scripts
 - [ ] Pretrained model and demo
 
