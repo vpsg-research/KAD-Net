@@ -1,0 +1,12 @@
+result_folder: ST_KAD_Net
+model_epoch: 100
+image_size: 256
+message_length: 128
+message_range: 0.1
+batch_size: 1
+with_mask: true
+branch_type: ST  # or FD
+strength_factor: 1
+noise_layer: Identity()
+# Identity()/JpegTest()/Resize()/GaussianBlur()/MedianBlur()/Brightness()/Contrast()/Saturation()/Hue()/Dropout()/SaltPepper()/GaussianNoise()
+# SimSwap()/GANimation()/StarGAN()

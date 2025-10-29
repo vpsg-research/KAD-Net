@@ -1,0 +1,38 @@
+project_name: KAD_Net
+epoch_number: 100
+batch_size: 16
+lr: 0.0002
+beta1: 0.5
+image_size: 128
+message_length: 30
+message_range: 0.1
+attention_encoder: se
+attention_decoder: se
+branch_type: "ST"   # or "FD"
+weight:
+  - 1 # encoder
+  - 10 # decoder_C
+  - 10 # decoder_R
+  - 10 # decoder_F
+  - 0.1 # discriminator
+dataset_path: /root/autodl-tmp/hsj/likaide/likaide/likaide/sda4/wxs/Dataset/dual_watermark/
+save_images_number: 8
+noise_layers:
+  pool_R:
+    - Identity()
+    - JpegTest()
+    - Resize()
+    - GaussianBlur()
+    - MedianBlur()
+    - Brightness()
+    - Contrast()
+    - Saturation() 
+    - Hue()
+    - Dropout()
+    - SaltPepper()
+    - GaussianNoise()
+  pool_F:
+    - SimSwap()
+    - GANimation()
+    - StarGAN()
+
