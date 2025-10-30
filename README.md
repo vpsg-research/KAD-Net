@@ -1,4 +1,4 @@
-# KAD-Net: Kolmogorov-Arnold and Differential-Aware Networks for Robust and Sensitive Proactive Deepfake Forensics
+# 【KBS'25】KAD-Net: Kolmogorov-Arnold and Differential-Aware Networks for Robust and Sensitive Proactive Deepfake Forensics
 
 This repository provides the implementation of the paper "KAD-Net: Kolmogorov-Arnold and Differential-Aware Networks for Robust and Sensitive Proactive Deepfake Forensics".
 We are grateful for any feedback and contributions. It must be acknowledged that this work still has several limitations. We hope this codebase is useful to your research. Best wishes!
